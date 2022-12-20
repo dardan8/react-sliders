@@ -1,0 +1,132 @@
+h1 {
+    font-size: 1.5em;
+    line-height: 1.1;}
+
+.carousel-container {
+
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+
+    width: 90%;
+    margin: 6rem 0;
+  }
+
+  .carousel {
+    overflow: hidden;
+    width: 100%;
+    
+    }
+    
+    .inner {
+      white-space: nowrap;
+      width: 100%;
+
+  }
+    
+    .carousel-item {
+    
+      display: inline-flex;
+      align-items: stretch;
+      justify-content: center;
+
+
+      width: 100%;
+      background-color: #9a97b3;
+      border-radius: 25px;
+      
+      box-sizing: border-box;
+    
+    }
+  
+    .carousal-item-single {
+      display: flex;
+      align-items: center;
+justify-content: center;
+      gap: 3rem;
+    
+      padding: 3rem 2rem;
+      box-sizing: border-box;
+
+    }
+  
+
+    .carousel-leftside {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: left;
+        padding: 1rem;
+        white-space:normal;
+        color: rgb(5 0 56 / 60%);
+        box-sizing: border-box;
+    }
+
+    .carousel-image {
+        width: 100%;
+        border-radius: 15px;
+        object-fit: contain;
+        box-sizing: border-box;
+  
+      }
+  
+  
+    .carousel-rightside {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      text-align: left;
+      padding: 1rem;
+      white-space:normal;
+      color: rgb(5 0 56 / 60%);
+      box-sizing: border-box;
+
+    }
+
+  
+    .indicators {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1rem 0;
+    }
+    
+  .indicators > button {
+    margin: 0 10px;
+  } 
+  
+  .navigation-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebeef8;
+    border: 0.8px solid #d8ddf3;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 2rem;
+    color: #050038;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation-button:hover {
+    background-color: #d8ddf3;
+  }
+    
+    .indicators > span.active {
+    
+      background-color: #d8ddf3;
+      color: #fff;
+    }
+    
+    .index-button {
+      margin: 0.1rem;
+      border-radius: 50%;
+      width: 0.8rem;
+      height: 0.8rem;
+      background-color: #ebeef8;
+      border: 0.8px solid #d8ddf3;;
+      cursor: pointer;
+    }
